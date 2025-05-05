@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.root": "/client/src/out",
+    "liveServer.settings.https": {
+        "enable": true,
+        "cert": "/Users/it/social_login_proto/client/src/certificates/localhost.pem",
+        "key": "/Users/it/social_login_proto/client/src/certificates/localhost-key.pem",
+        "passphrase": ""
+    }
+}

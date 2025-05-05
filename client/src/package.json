@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --experimental-https --experimental-https-key=./certificates/localhost-key.pem --experimental-https-cert=./certificates/localhost.pem",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.4",
+    "axios": "^1.7.7",
+    "clsx": "^2.1.1",
+    "next": "^15.3.1",
+    "phaser": "^3.88.2",
+    "postcss": "^8.5.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-toastify": "^11.0.5",
+    "socket.io-client": "^4.8.1",
+    "tailwindcss": "^4.1.4"
+  }
+}
